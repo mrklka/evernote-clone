@@ -1,0 +1,100 @@
+.login-register-container {
+    height: 100vh !important;
+    width: 100vw !important;
+    background-image: url('/login_pattern.png') !important;
+    background-repeat:  repeat;
+
+}
+
+
+
+.card-container.card {
+    max-width: 500px !important;
+    padding: 40px 40px !important;
+
+  }
+ 
+  .card {
+
+    background-color: #ffffff;
+    padding: 20px 25px 30px !important;
+    margin-top: 10vh !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    margin: auto !important;
+    width: 60% !important; 
+
+  }
+  
+  .profile-img-card {
+    width: 5vw;
+    height: 5vh;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .profile-brand {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+  }
+
+  .profile-tag {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+    padding-bottom: 5vh;
+  }
+  
+  .form-signin input[type=text],
+  .form-signin input[type=email],
+  .form-signin input[type=password],
+  .form-signin button {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1vh;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  .btn.btn-signin {
+    background-color: #5ba525;
+    font-weight: 300;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .btn.btn-signin:hover,
+  .btn.btn-signin:active,
+  .btn.btn-signin:focus {
+    background-color: rgb(12, 100, 10);
+  }
+
+  .register-redirect-link {
+    color: #5ba525;
+  }
+
+  .register-redirect-link:hover,
+  .register-redirect-link:active,
+  .register-redirect-link:focus {
+    color: rgb(12, 100, 10) !important;
+  }
+  
+
+.login-spacer {
+    padding-bottom: 20vh !important;
+
+}
